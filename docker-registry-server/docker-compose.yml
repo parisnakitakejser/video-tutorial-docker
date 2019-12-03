@@ -1,0 +1,23 @@
+version: "3.7"
+services:
+  docker-registry-host:
+    image: registry
+    ports:
+      - 5000:5000
+    volumes:
+      - ./registry-data:/var/lib/registry
+    networks:
+      - docker-registry
+
+  docker-registry-host-web-ui:
+    image: konradkleine/docker-registry-frontend:v2
+    environment:
+      ENV_DOCKER_REGISTRY_HOST: docker-registry-host
+      ENV_DOCKER_REGISTRY_PORT: 5000
+    ports:
+      - 8080:80
+    networks:
+      - docker-registry
+
+networks:
+  docker-registry:

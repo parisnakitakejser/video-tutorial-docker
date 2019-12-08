@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  web:
+    image: node:latest
+    networks:
+      - frontend
+
+  mongo:
+    image: mongo:latest
+    networks:
+      - frontend
+    volumes:
+      - ./db/:/data/db
+
+networks:
+  frontend:

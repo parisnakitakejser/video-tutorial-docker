@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  docker-registry-host:
+    image: registry
+    ports:
+      - 5000:5000
+    volumes:
+      - ./registry-data:/var/lib/registry
+      - ./config.yml:/etc/docker/registry/config.yml
+    networks:
+      - docker-registry
+
+networks:
+  docker-registry:

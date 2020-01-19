@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  elasticsearch:
+    image: elasticsearch:7.4.2
+    environment:
+      discovery.type: 'single-node'
+    volumes:
+      - ./esdata1:/usr/share/elastichsearch/data
+    ports:
+      - 9200:9200
+      - 9300:9300

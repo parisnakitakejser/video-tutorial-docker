@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  web:
+    image: nginx
+    deploy:
+      replicas: 5
+
+  mongo:
+    image: mongo:4.2
+    ports:
+      - "27017:27017"
+
+  proxy:
+    image: nginx
+    ports:
+      - "8080:80"
+
+    environment:
+      WEB_SERVER: "web:80"
+      API_SERVER: "api:3000"

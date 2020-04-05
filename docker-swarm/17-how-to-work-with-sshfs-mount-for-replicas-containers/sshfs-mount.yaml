@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  test-nginx:
+    image: nginx
+    volumes:
+      - "sshmount:/app"
+    deploy:
+      replicas: 6
+    command: [nginx-debug, '-g', 'daemon off;']
+
+volumes:
+  sshmount:
+    name: "sshmount"
+    driver: "vieux/sshfs:latest"
+    driver_opts:
+      sshcmd: docker-nfs@(host-name):/home/docker-nfs
+      password: (password)
+      reconnect: ""

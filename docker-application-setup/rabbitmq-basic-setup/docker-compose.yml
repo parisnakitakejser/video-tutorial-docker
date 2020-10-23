@@ -7,4 +7,6 @@ services:
 #    volumes:
 #      - ./db-data:/var/lib/rabbitmq
     ports:
+      - 5672:5672
       - 15672:15672
+      - 25672:25672

@@ -1,6 +1,8 @@
-# video-tutorial-docker
+# ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg) Awesome Docker Video Tutorial 
 
-These docker config files are part of a **Docker Registry Tutorial** by [Paris Nakita Kejser](https://www.youtube.com/channel/UCkFxhKB3S-JzvbXzYrZGFqw) on Youtube.
+> This Docker Video Tutorial list its created by [Paris Nakita Kejser](https://www.youtube.com/channel/UCkFxhKB3S-JzvbXzYrZGFqw) on Youtube and all config files can be found here.
+
+
 
 | Video | Recording Date |
 | ----- | -------------- |
@@ -19,3 +21,10 @@ These docker config files are part of a **Docker Registry Tutorial** by [Paris N
 [5]: https://www.youtube.com/watch?v=y7KUQX2tu-M&t=40s
 [6]: https://www.youtube.com/watch?v=F_eqUdKRRKM
 [7]: https://www.youtube.com/watch?v=6dGKVifmTiA
+
+# Contents <!-- omit in toc -->
+
+- [What is Docker](#what-is-docker)
+
+# What is Docker
+> Docker is an open platform for Developers and SysOps to build, ship and deploy application fast and stable. Docker Engine can be installed on cross platforms Windows, Linux and macOS. Docker enable the option to share your images fast with your team, and you can easy use CI/CD tools to automatic deploy to Docker Swarm or just a orther Docker system.

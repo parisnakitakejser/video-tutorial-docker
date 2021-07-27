@@ -38,7 +38,9 @@
   - [Message Queuing](#message-queuing)
     - [RabbitMQ](#rabbitmq)
   - [Mail Server](#mail-server)
+    - [Mailhog - SMTP Sandbox](#mailhog---smtp-sandbox)
   - [Webserver / Proxy](#webserver--proxy)
+    - [NGINX](#nginx)
 
 # What is Docker
 > Docker is an open platform for Developers and SysOps to build, ship and deploy application fast and stable. Docker Engine can be installed on cross platforms Windows, Linux and macOS. Docker enable the option to share your images fast with your team, and you can easy use CI/CD tools to automatic deploy to Docker Swarm or just a orther Docker system.
@@ -70,4 +72,8 @@
 
 ## Mail Server
 
+### Mailhog - SMTP Sandbox
+
 ## Webserver / Proxy
+
+### NGINX

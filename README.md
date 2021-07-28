@@ -21,6 +21,8 @@
     - [Mailhog - SMTP Sandbox](#mailhog---smtp-sandbox)
   - [Webserver / Proxy](#webserver--proxy)
     - [NGINX](#nginx)
+- [Scale Software with Docker](#scale-software-with-docker)
+  - [WordPress](#wordpress)
 
 # What is Docker
 > Docker is an open platform for Developers and SysOps to build, ship and deploy application fast and stable. Docker Engine can be installed on cross platforms Windows, Linux and macOS. Docker enable the option to share your images fast with your team, and you can easy use CI/CD tools to automatic deploy to Docker Swarm or just a orther Docker system.
@@ -69,3 +71,12 @@
 ## Webserver / Proxy
 
 ### NGINX
+
+# Scale Software with Docker
+> To run morderen software its very importen its scaling in the right way so you don't need to focus on a single server but focus on the software you are developering as developer. This overview helps you to look witchs software there can be working with Docker and how you can scale it by using Docker Swarm.
+
+## WordPress
+> WordPress its not build to scale, but if you are using its currect, you can get the benefits of WordPress core, build your own plugins and then scale up with Docker Swarm and stop maintain single WordPress instans.
+
+**Video Courses**
+- [Scale WordPress project with Docker, Composer and GitHub Actions](https://www.pnk.sh/courses/scale-wordpress-project-with-docker-composer-and-github-actions) - 7 videos with 1 hour 28 min playtime.

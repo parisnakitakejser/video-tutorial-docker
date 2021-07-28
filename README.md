@@ -79,4 +79,4 @@
 > WordPress its not build to scale, but if you are using its currect, you can get the benefits of WordPress core, build your own plugins and then scale up with Docker Swarm and stop maintain single WordPress instans.
 
 **Video Courses**
-- [Scale WordPress project with Docker, Composer and GitHub Actions](https://www.pnk.sh/courses/scale-wordpress-project-with-docker-composer-and-github-actions) - 7 videos with 1 hour 28 min playtime.
+- [Scale WordPress project with Docker, Composer and GitHub Actions](https://www.pnk.sh/courses/scale-wordpress-project-with-docker-composer-and-github-actions) - 8 videos with 1 hour 43 min playtime.

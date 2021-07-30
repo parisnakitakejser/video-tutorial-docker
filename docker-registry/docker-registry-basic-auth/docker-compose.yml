@@ -2,7 +2,10 @@ version: "3.7"
 
 services:
   basic-auth:
-    build: ./auth/
+    image: registry
+    build:
+      context: ./auth/
+      dockerfile: Dockerfile
     ports:
       - 5000:5000
     environment:
